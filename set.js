@@ -12,10 +12,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'pk~i9AhQa5D#psusjLIkJRonKBIwpkkhggIoy8i2KoulE0cd2tb2qVM',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "254799056874",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Pkdriller01",              
+    OWNER_NAME: process.env.OWNER_NAME || "2347046970033",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "SIMEON",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'NEXUS-AI',
