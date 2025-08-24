@@ -14,8 +14,8 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'pk~i9AhQa5D#psusjLIkJRonKBIwpkkhggIoy8i2KoulE0cd2tb2qVM',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "2347046970033",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "SIMEON",              
+    OWNER_NAME: process.env.OWNER_NAME || "SIMEON",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "2347046970033",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'NEXUS-AI',
